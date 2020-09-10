@@ -1,0 +1,1081 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 3s;
+    background-color: #B17A6E;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300 ;
+    margin: 0;
+    color:  #2C2B2C;
+}
+
+header{
+    position: fixed;
+    top: 0;
+}
+
+header a {
+    top: 15px;
+    left: 15px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    z-index: 999999;
+}
+
+.rosemill-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.rosemill-logo-rose{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+
+}
+
+.header-logo{
+    opacity: 1;
+}
+
+nav{
+    margin: 30px 10px;
+}
+
+nav a{
+    display: block;
+    height: auto;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home {
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.moon-ani {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-gif {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-gif.absolute{
+    position: absolute;
+    top: 300px;
+}
+
+.main-heading-wrap{
+    width: 100%;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19.5rem;
+    text-align: center;
+    margin: 100px 0 0 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+body.page-design{
+    background-color: white;
+}
+
+.page-design h1{
+    margin-top: 175px;
+}
+
+.page-design .blank{
+    width: 100%;
+    height: 100px;
+}
+
+.rosemill {
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 2.0;
+}
+
+.rosemill span{
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.city {
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    max-width: 975px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+}
+
+.intro-copy{
+    width: 65%;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 400px auto 80px;
+}
+
+.venera{
+    position: absolute;
+    height: 250px;
+    overflow: hidden;
+}
+
+.intro-copy strong{
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+
+.front-end{
+    background-color: #B17A6E;
+}
+
+.front-end img{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.front-end img{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.front-end a{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.front-end a span{
+    margin-top: 10px;
+}
+
+
+
+section.test-sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+section.test-sticky.design{
+    width: 80%;
+    margin: auto
+}
+
+.design h2,
+.webdev h2,
+.about h2{
+    font-size: 8.5rem;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0;
+}
+
+.webdev{
+    background-color: #B17A6E;
+    z-index: 12;
+    width: 80%;
+    margin: auto;
+}
+
+.about{
+    height: 110vh;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.about .img{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: .6;
+}
+
+.img img{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.about .intro-copy{
+    margin-top: 275px;
+}
+
+
+.webdev h2,
+.about h2{
+    position: sticky;
+    top: 0;
+    background-color: #B17A6E;
+    z-index: 12;
+}
+
+.heading-2{
+    margin-top: 0px;
+}
+
+.heading-2-pink{
+    color: #B17A6E;
+    z-index: 11;
+    font-size: 20.5rem;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top:21vh;
+}
+
+footer{
+    height: 10vh;
+    border: 1px solid #2C2B2C;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.piece-1{
+    margin-bottom: 200px;
+}
+
+.design-portfolio-front{
+    width: 100%;
+    margin: 100px auto 0;
+}
+
+
+.design-piece{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rbno,
+.bunch{
+    margin-top: 80vh;
+}
+
+.tracks{
+    margin-bottom: 70vh;
+}
+
+.bananaleaves,
+.strider{
+    margin-top: 120vh;
+}
+
+.design-thumbnail{
+    z-index: 10;
+    position: relative;
+    width: 30%;
+    cursor: pointer;
+}
+
+.design-thumbnail img:hover{
+    cursor: pointer;
+    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+}
+
+.design-thumbnail h3,
+.webdev-content h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+}
+
+.design-thumbnail img{
+    width: 100%;
+    max-width: 360px;
+}
+
+.design-thumbnail span{
+    transform: rotate(90deg);
+    /*left: -98px;*/
+    /*top: 349px;*/
+    font-weight: 400;
+    letter-spacing: 5px;
+    /*position: absolute;*/
+}
+
+
+
+.design-thumbnail.tracks span{
+    top: 349px;
+}
+
+.design-thumbnail.rbno span{
+    top: 349px;
+}
+
+.design-thumbnail.bananaleaves span{
+    left: -76px;
+    top: 445px;
+}
+
+.design-thumbnail.maybe span{
+    top: 447px;
+}
+
+.design-thumbnail.strider span{
+    top: 374px;
+}
+
+.design-thumbnail.bunch span{
+    top: 369px;
+    left: -80px;
+}
+
+
+.intro-copy span{
+    position: relative;
+}
+
+.intro-copy span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    bottom: -4px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #2C2B2C;
+}
+
+
+.scroll-arrow {
+    font-size: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 20px 20px 0;
+}
+
+.scroll-arrow.down {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.scroll-arrow.arrow-at-bottom{
+    transform: rotate(180deg);
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+.see-all-design,
+.see-all-webdev,
+.back-to-top{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.see-all-webdev{
+    margin-top: 100px;
+}
+
+.see-all-webdev.contact-me{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.back-to-top{
+    margin-top: 10px;
+}
+
+
+.webdev-content{
+    align-items: center;
+    background-color: #B17A6E;
+}
+
+.webdev-piece{
+    display: flex!important;
+    align-items: center;
+    border-bottom: 1px solid #2C2B2C;
+    cursor: pointer;
+}
+
+.webdev-content .webdev-piece div{
+    width: 50%;
+    padding: 50px;
+}
+
+.webdev-piece-image{
+    position: relative;
+}
+
+.webdev-piece-image::after{
+    content: "";
+    height: 33%;
+    width: 1px;
+    background-color: #2C2B2C;
+    top: 33%;
+    position: absolute;
+}
+
+.webdev-piece-image img{
+    transition: all .3s linear;
+}
+
+.webdev-piece:hover img{
+    transform: scale(1.2);
+
+}
+
+
+.maybe_tracks_h1 {
+    font-size: 85px;
+    font-family: 'Noto Serif', serif;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    width: 48%;
+}
+
+.maybe_tracks_intro {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+
+}
+
+.rbn_intro {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    width: 48%;
+}
+
+.upper_text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+
+.bunch_paragraph {
+    padding-top: 120px;
+}
+
+
+.left, .right {
+    text-align: center;
+}
+
+.flex-fix {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.maybe_tracks_photos {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.maybe_tracks_sand {
+    text-align: center;
+
+}
+
+.fifty {
+    max-width: 48%;
+    margin-right: 50px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.besedilo1 {
+    width: 360px;
+    max-width: 100%;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    text-align: left;
+}
+
+.besedilo2 {
+    width: 300px;
+    max-width: 100%;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    text-align: left;
+}
+
+.besedilo1 h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: black;
+}
+
+.besedilo2 h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: black;
+}
+
+.besedilo1 p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.besedilo2 p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.container1 {
+    display: inline-block;
+}
+
+.container2 {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color:  #2C2B2C;
+    transition: all .5s ease;
+    padding: 5px;
+}
+
+a:hover {
+    color: #E5DDE0;
+}
+
+
+
+.name {
+    text-align:center;
+    margin-top: 150px;
+    font-size: 110px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.phonetics {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.aboutkyah {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 60px 25px 0px 25px;
+}
+
+.abouticons {
+    text-align: center;
+}
+
+.chover:hover {
+    position: relative;
+    top: 3px;
+    filter: brightness(1.1);
+
+}
+
+.photo2_cover {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+}
+
+
+/*moon styles*/
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin-negative {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.planetPosition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 600px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.near-orbit {
+    width: 100%;
+    height: 100%;
+    background-color: #33333347;
+    position: absolute;
+}
+.mainPlanet {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    -webkit-animation: rotation 45s infinite linear;
+}
+.smallPlanet img{
+    width: 15%;
+    -webkit-animation: rotation 5s infinite linear;
+}
+.smallPlanet {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mars {
+    animation: spin 18s linear 0s infinite;
+}
+.saturn {
+    animation: spin-negative 9s linear 0s infinite;
+}
+.planet-x {
+    animation: spin 12s linear 0s infinite;
+}
+
+.planet-y {
+    animation: spin-negative 15s linear 0s infinite;
+}
+
+.planet-x img {
+    top: -10px;
+    position: absolute;
+}
+
+.planet-y img {
+    top: -135px;
+    position: absolute;
+}
+
+.saturn img {
+    top: -105px;
+    position: absolute;
+}
+
+.mars img {
+    top: -75px;
+    position: absolute;
+}
+
+.design-item{
+    display: flex;
+}
+
+.design-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.design-item div{
+    width: 50%;
+}
+
+.design-item-copy{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #e8c48e;
+}
+
+.design-item img{
+    padding: 3%;
+}
+
+.design-item-copy h2{
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    color: #2C2B2C;
+}
+
+.design-item-copy h3{
+    font-weight: 400;
+    color: #2C2B2C;
+}
+
+.design-item:nth-child(odd) .design-item-copy{
+    background-color: #B17A6E;
+}
+
+.design-item-images{
+    background-color: #2C2B2C;
+}
+
+.sec-des-main-gif{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.page-webdev .main-gif img {
+    width: 100%;
+    max-width: 650px;
+}
+
+.page-webdev .main-heading-wrap .rosemill {
+    color: #2C2B2C;
+}
+
+.page-webdev .sec-des-main-gif{
+    height: 100vh
+}
+
+.ljubljana span{
+    font-family: 'Tajawal', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 16.5rem;
+        margin-top: 170px;
+    }
+
+    .design-thumbnail h3,
+    .webdev-content h3{
+        font-size: 3rem;
+    }
+
+    .webdev ,
+    .about{
+        width: 90%;
+    }
+
+    .webdev-content .webdev-piece div {
+        padding: 15px;
+    }
+
+    .intro-copy {
+        margin-top: 300px;
+        width: 90%;
+    }
+
+    .see-all-webdev.contact-me {
+        margin-bottom: 30px;
+    }
+
+    .see-all-webdev {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 12.5rem;
+    }
+
+    .design h2, .webdev h2, .about h2 {
+        font-size: 5.5rem;
+    }
+
+    .about h2{
+        width: 90%;
+        margin: auto;
+    }
+
+    .rosemill-logo {
+        width: 85px;
+        height: 85px;
+    }
+
+    .rosemill-logo-rose {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        bottom: 32px;
+        left: 27px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 8.5rem;
+        margin-top: 280px;
+    }
+
+    .intro-copy {
+        font-size: 30px;
+    }
+
+    .rosemill {
+        font-size: 15px;
+    }
+
+    .city{
+        display: block;
+    }
+
+    .city span{
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        margin:10px;
+    }
+
+    .mainPlanet {
+        width: 50%;
+        height: 50%;
+    }
+
+    .smallPlanet img {
+        width: 10%;
+    }
+
+    .planet-x img {
+        top: 5px;
+    }
+
+    .mars img {
+        top: -20px;
+    }
+
+    .saturn img {
+        top: -40px;
+
+    }
+
+    .planet-y img {
+        top: -75px;
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .main-heading-wrap{
+        height: auto;
+    }
+
+    .webdev-content,
+    .webdev{
+        background-color: transparent;
+    }
+
+    .design h2, .webdev h2, .about h2 {
+        font-size: 4.5rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .main-gif.absolute {
+        position: absolute!important;
+        top: 300px;
+    }
+
+    .img img {
+        width: 75%;
+    }
+
+    .about h2 {
+        width: 67%;
+    }
+
+    .about {
+        height: 86vh;
+    }
+
+    .about .img {
+        height: 77vh;
+    }
+
+    .about .intro-copy {
+        margin-top: 170px;
+    }
+
+    .rbno, .bunch {
+        margin-top: 40vh;
+    }
+
+    .bananaleaves, .strider {
+        margin-top: 70vh;
+    }
+
+    .design-item-copy h2 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 5.5rem;
+    }
+
+    header{
+        position: absolute;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .mainPlanet{
+        width: 40%;
+        height: 40%;
+    }
+
+    .near-orbit {
+        height: 80%;
+    }
+
+    .main-gif.absolute {
+        top: 100px;
+    }
+
+    .design-thumbnail h3, .webdev-content h3 {
+        font-size: 2rem;
+    }
+
+    .webdev-piece{
+        display: block!important;
+    }
+
+    .webdev-content .webdev-piece div {
+        width: 100%;
+    }
+
+    .webdev-piece-image::after {
+        width: 0;
+    }
+
+    .design h2, .webdev h2, .about h2 {
+        width: 100%;
+    }
+
+    .design-item{
+        display: block;
+    }
+
+    .design-item div {
+        width: 100%;
+    }
+
+    .design-item-copy{
+        height: 41vw;
+    }
+}
+
+

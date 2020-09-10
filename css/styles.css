@@ -1088,7 +1088,8 @@ a:hover {
     }
 
     .design-item-copy{
-        height: 41vw;
+        height: 90vh;
+        position: relative;
     }
 
     .intro-copy {

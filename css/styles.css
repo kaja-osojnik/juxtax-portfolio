@@ -1042,6 +1042,19 @@ a:hover {
         height: 80%;
     }
 
+    .planet-x img {
+        top: 56px;
+    }
+
+    .mars img {
+        top: 30px;
+    }
+
+    .saturn img {
+        top: 20px;
+
+    }
+
     .main-gif.absolute {
         top: 100px;
     }

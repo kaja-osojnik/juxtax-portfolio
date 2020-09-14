@@ -820,6 +820,8 @@ a:hover {
 
 .design-item-images{
     background-color: #2C2B2C;
+    display: flex;
+    flex-direction: column;
 }
 
 .sec-des-main-gif{

@@ -86,7 +86,7 @@ $(window).scroll(function() {
 
 setTimeout(function(){
     document.querySelector("div.loading").classList.add("hidden");
-}, 1700)
+}, 4000)
 
 
 

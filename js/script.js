@@ -72,22 +72,24 @@ $(window).scroll(function() {
 //   }
 // }
 
-// pixelated
-
-// const pixelator = document.querySelector('.pixelator');
-// const filename = pixelator.dataset.original;
-//
-// const image = new Image();
-// image.src = filename;
-//
-// image.onload = () => {
-//     pixelator.style.backgroundImage = `url(${filename})`;
-// }
 
 setTimeout(function(){
     document.querySelector("div.loading").classList.add("hidden");
 }, 4000)
 
 
+const pixelator = document.querySelectorAll('.pixelator');
+
+
+for(i=0; i<pixelator.length; i++){
+    const filename = pixelator[i].dataset.original;
+
+    const image = new Image();
+    image.src = filename;
+
+    image.onload = function() {
+        pixelator[i].style.backgroundImage = `url(${filename})`;
+    }
+}
 
 

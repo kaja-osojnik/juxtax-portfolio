@@ -856,6 +856,24 @@ a:hover {
     font-family: 'Tajawal', sans-serif;
 }
 
+.pixelator{
+    height: 700px;
+    width: 100%!important;
+    background-size: cover;
+}
+
+.maybe-cover{
+    background-image: url("../img/Maybe/maybe_cover-pixelated.png")
+}
+
+.maybe-content{
+    background-image: url("../img/Maybe/maybe_content-pixelated.png")
+}
+
+.maybe-content2{
+    background-image: url("../img/Maybe/maybe_content2-pixelated.png")
+}
+
 @media only screen and (max-width: 1200px) {
     h1 {
         font-size: 16.5rem;

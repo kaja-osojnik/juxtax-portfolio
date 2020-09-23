@@ -42,40 +42,9 @@ $(window).scroll(function() {
     $('.rosemill-logo').css({ transform: 'rotate(' + theta + 'rad)' });
     });
 
-
-
-//venera animation
-
-// let x = 0;
-// const el = document.querySelector(".venera");
-//
-// function step(){
-//   x+= .1;
-// //  el.style.transform = "translateX("+x+"%)";
-//    el.style.left = x+"%";
-//   if(x<90){
-//     window.requestAnimationFrame(step);
-//   }
-// }
-//
-// window.requestAnimationFrame(step);
-//
-//
-// let num = 200;
-//
-// const interval = window.setInterval(countDown, 7000);
-//
-// function countDown(){
-//   num --;
-//   if (num < 0){
-//     clearInterval(interval);
-//   }
-// }
-
-
 setTimeout(function(){
     document.querySelector("div.loading").classList.add("hidden");
-}, 4000)
+}, 3000)
 
 document.querySelectorAll('.pixelator').forEach(function(pixel) {
     const filename = pixel.dataset.original;
@@ -84,5 +53,4 @@ document.querySelectorAll('.pixelator').forEach(function(pixel) {
     image.onload = function() { pixel.style.backgroundImage = `url(${filename})`;}
     }
 )
-
 

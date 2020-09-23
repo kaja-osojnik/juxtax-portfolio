@@ -77,19 +77,12 @@ setTimeout(function(){
     document.querySelector("div.loading").classList.add("hidden");
 }, 4000)
 
-
-const pixelator = document.querySelectorAll('.pixelator');
-
-
-for(i=0; i<pixelator.length; i++){
-    const filename = pixelator[i].dataset.original;
-
-    const image = new Image();
-    image.src = filename;
-
-    image.onload = function() {
-        pixelator[i].style.backgroundImage = `url(${filename})`;
+document.querySelectorAll('.pixelator').forEach(function(pixel) {
+    const filename = pixel.dataset.original;
+    const image = new Image()
+    image.src = filename
+    image.onload = function() { pixel.style.backgroundImage = `url(${filename})`;}
     }
-}
+)
 
 

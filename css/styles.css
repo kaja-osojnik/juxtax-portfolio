@@ -800,11 +800,7 @@ a:hover {
     position: -webkit-sticky;
     top: 0;
     background-color: #e8c48e;
-    text-align: centerM;
-}
-
-.design-item img{
-    padding: 3%;
+    text-align: center;
 }
 
 .design-item-copy h2{
@@ -860,6 +856,14 @@ a:hover {
     height: 700px;
     width: 100%!important;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 680px;
+    margin: 15px auto 0;
+}
+
+.pixelator:last-child{
+    margin-bottom: 15px;
 }
 
 .maybe-cover{
@@ -867,12 +871,95 @@ a:hover {
 }
 
 .maybe-content{
-    background-image: url("../img/Maybe/maybe_content-pixelated.png")
+    background-image: url("../img/Maybe/maybe_content-pixelated.png");
+    height: 400px;
 }
 
 .maybe-content2{
-    background-image: url("../img/Maybe/maybe_content2-pixelated.png")
+    background-image: url("../img/Maybe/maybe_content2-pixelated.png");
+    height: 400px;
 }
+
+.album_artwork{
+    background-image: url("../img/Rbno2/album_artwork-pixelated.png")
+}
+
+.album-back{
+    background-image: url("../img/Rbno2/album_back-pixelated.png")
+}
+
+.album_front{
+    background-image: url("../img/Rbno2/album_front-pixelated.png")
+}
+
+.album_wallpaper{
+    background-image: url("../img/Rbno2/album_wallpaper-pixelated.png")
+}
+
+.fb_fanpage{
+    background-image: url("../img/Rbno2/fb_fanpage-pixelated.png")
+}
+
+.tracks_cover{
+    background-image: url("../img/Tracks/tracks_cover-pixelated.png")
+}
+
+.tracks-logo{
+    background-image: url("../img/Tracks/tracks-pixelated.png");
+    height: 200px;
+}
+
+.tracks_back{
+    background-image: url("../img/Tracks/tracks_back-pixelated.png")
+}
+
+.phone_screen{
+    background-image: url("../img/Bunch/phone_screen-pixelated.png")
+}
+
+.bunch_website{
+    background-image: url("../img/Bunch/bunch_website-pixelated.png");
+    height: 1800px;
+}
+
+.sign{
+    background-image: url("../img/Bunch/sign-pixelated.png")
+}
+
+.strider_screen{
+    background-image: url("../img/Strider/strider_screen-pixelated.png")
+}
+
+.strider_waterbottle{
+    background-image: url("../img/Strider/strider_waterbottle-pixelated.png");
+}
+
+.strider_website{
+    background-image: url("../img/Strider/strider_website-pixelated.png");
+    height: 2000px;
+}
+
+.pattern{
+    background-image: url("../img/Strider/pattern-pixelated.png")
+}
+
+.tea{
+    background-image: url("../img/Banana/tea-pixelated.png")
+}
+
+.teeprinting{
+    background-image: url("../img/Banana/teeprinting-pixelated.png");
+    height: 2000px;
+}
+
+.washingpowder{
+    background-image: url("../img/Banana/washingpowder-pixelated.png")
+}
+
+.shirt{
+    background-image: url("../img/Banana/shirt-pixelated.png")
+}
+
 
 @media only screen and (max-width: 1200px) {
     h1 {
@@ -943,6 +1030,22 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .pixelator {
+        height: 375px;
+        max-width: 340px;
+        margin: 7px auto 0;
+    }
+
+    .tracks-logo{
+        height: 100px;
+    }
+
+    .bunch_website,
+    .strider_website,
+    .teeprinting{
+        height: 1200px;
+    }
+
     .design-item {
         margin-left: 0;
     }
@@ -1117,6 +1220,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+    .pixelator {
+        max-width: 414px;
+    }
+
+    .page-design .sec-des-main-gif {
+        height: 50vh;
+    }
+
+    .page-design .main-gif {
+        height: 63vh;
+    }
+
     .page-webdev .design-item-images {
         padding-top: 150px;
     }
@@ -1247,10 +1362,6 @@ div.loading.hidden{
     opacity: 0;
     pointer-events: none;
 }
-
-/*div.loading img{*/
-/*    animation: loading 3s infinite ease-in-out;*/
-/*}*/
 
 .spinner {
     margin: 0 auto;

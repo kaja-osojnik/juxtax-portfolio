@@ -493,7 +493,6 @@ footer{
     transform: scale(1.2);
 }
 
-
 .maybe_tracks_h1 {
     font-size: 85px;
     font-family: 'Noto Serif', serif;
@@ -856,7 +855,7 @@ a:hover {
     margin: 15px auto 0;
 }
 
-.pixelator:last-child{
+.page-design .pixelator:last-child{
     margin-bottom: 15px;
 }
 
@@ -1004,7 +1003,8 @@ a:hover {
 }
 
 
-.webdev-piece-image .pixelator{
+.webdev-piece-image .pixelator,
+.page-webdev .pixelator{
     width: 100%;
     max-width: 398px;
     height: 238px;
@@ -1030,7 +1030,9 @@ a:hover {
     background-image: url("../img/jiffy-pixelated.png")
 }
 
-
+.page-design nav a:hover{
+    color: #8E665E;
+}
 
 @media only screen and (max-width: 1200px) {
     .rbno-img,
@@ -1114,6 +1116,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .page-design nav a:hover{
+        color: #E5DDE0;
+    }
+
     .pixelator {
         height: 375px;
         max-width: 340px;

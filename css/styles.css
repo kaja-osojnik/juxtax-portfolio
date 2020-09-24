@@ -333,12 +333,6 @@ footer{
     cursor: pointer;
 }
 
-.design-thumbnail img:hover{
-    cursor: pointer;
-    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
-    filter: blur(2px);
-}
-
 .design-thumbnail h3,
 .webdev-content h3{
     font-family: 'Cormorant Garamond', serif;
@@ -488,15 +482,15 @@ footer{
     background-color: #2C2B2C;
     top: 33%;
     position: absolute;
+    right: 20px;
 }
 
-.webdev-piece-image img{
+.webdev-piece-image .pixelator{
     transition: all .3s linear;
 }
 
-.webdev-piece:hover img{
+.webdev-piece:hover .pixelator{
     transform: scale(1.2);
-
 }
 
 
@@ -960,8 +954,98 @@ a:hover {
     background-image: url("../img/Banana/shirt-pixelated.png")
 }
 
+.tracks-img{
+    background-image: url("../img/tracks-pixelated.png")
+}
+
+.bananaleaves-img{
+    background-image: url("../img/bananaleaves-pixelated.png")
+}
+
+
+.bunch-img{
+    background-image: url("../img/bunch-pixelated.png")
+}
+
+.maybe-img{
+    background-image: url("../img/maybe-pixelated.png")
+}
+
+.strider-img{
+    background-image: url("../img/strider-pixelated.png")
+}
+
+.rbno-img{
+    background-image: url("../img/Juxtaxrbno2.1a2rflctd-pixelated.png")
+}
+
+.homepage .design-portfolio-front .pixelator{
+    width: 100%;
+    max-width: 313px;
+    margin: 5px 0;
+}
+
+.homepage .design-portfolio-front .pixelator:hover{
+    cursor: pointer;
+    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+}
+
+.rbno-img,
+.strider-img,
+.bunch-img,
+.bananaleaves-img {
+    height: 300px;
+}
+
+.tracks-img,
+.maybe-img{
+    height: 400px;
+}
+
+
+.webdev-piece-image .pixelator{
+    width: 100%;
+    max-width: 398px;
+    height: 238px;
+}
+
+.mudra-screen{
+    background-image: url("../img/mudra-screen-pixelated.png")
+}
+
+.rps-screen{
+    background-image: url("../img/rock-paper-scissors-pixelated.png")
+}
+
+.alex-screen{
+    background-image: url("../img/aleksander-pixelated.png")
+}
+
+.mimi-screen{
+    background-image: url("../img/mimi_yoga-pixelated.png")
+}
+
+.jiffy-screen{
+    background-image: url("../img/jiffy-pixelated.png")
+}
+
+
 
 @media only screen and (max-width: 1200px) {
+    .rbno-img,
+    .strider-img,
+    .bunch-img,
+    .bananaleaves-img {
+        height: 225px;
+    }
+
+    .tracks-img,
+    .maybe-img{
+        height: 275px;
+    }
+
+
     h1 {
         font-size: 16.5rem;
         margin-top: 170px;
@@ -1034,6 +1118,22 @@ a:hover {
         height: 375px;
         max-width: 340px;
         margin: 7px auto 0;
+    }
+
+    .homepage .design-portfolio-front .pixelator{
+        max-width: 200px;
+    }
+
+    .rbno-img,
+    .strider-img,
+    .bunch-img,
+    .bananaleaves-img {
+        height: 200px;
+    }
+
+    .tracks-img,
+    .maybe-img{
+        height: 230px;
     }
 
     .tracks-logo{
@@ -1223,6 +1323,23 @@ a:hover {
     .pixelator {
         max-width: 414px;
     }
+
+    .homepage .design-portfolio-front .pixelator{
+        max-width: 120px;
+    }
+
+    .rbno-img,
+    .strider-img,
+    .bunch-img,
+    .bananaleaves-img {
+        height: 120px;
+    }
+
+    .tracks-img,
+    .maybe-img{
+        height: 140px;
+    }
+
 
     .page-design .sec-des-main-gif {
         height: 50vh;

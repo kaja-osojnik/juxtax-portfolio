@@ -55,6 +55,8 @@ setTimeout(function(){
             image.onload = function() { pixel.style.backgroundImage = `url(${filename})`;}
         }
     )
+
+    document.querySelector('h1').classList.add('animated');
 }, 3001)
 
 

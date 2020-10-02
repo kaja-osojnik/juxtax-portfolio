@@ -21,6 +21,7 @@ body {
 header{
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 header a {
@@ -52,7 +53,8 @@ header a {
 }
 
 nav{
-    margin: 30px 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 nav a{
@@ -98,7 +100,7 @@ nav a{
 
 .main-gif.absolute{
     position: absolute;
-    top: 300px;
+    top: 200px;
 }
 
 .page-design .main-gif.absolute{
@@ -118,6 +120,27 @@ h1 {
     margin: 100px 0 0 0;
     letter-spacing: 1px;
     font-weight: 500;
+}
+
+h1.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
 
 body.page-design{
@@ -149,14 +172,13 @@ body.page-design{
 
 
 .city {
-    margin-top: 150px;
     display: flex;
     width: 100%;
-    max-width: 975px;
+    max-width: 706px;
     justify-content: space-between;
     font-weight: 400;
     font-size: 20px;
-    margin: auto;
+    margin: auto ;
 }
 
 .intro-copy{
@@ -830,7 +852,7 @@ a:hover {
 
 .page-webdev .main-gif img {
     width: 100%;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .page-webdev .main-heading-wrap .rosemill {
@@ -1003,11 +1025,16 @@ a:hover {
 }
 
 
-.webdev-piece-image .pixelator,
-.page-webdev .pixelator{
+.webdev-piece-image .pixelator{
     width: 100%;
     max-width: 398px;
     height: 238px;
+}
+
+.page-webdev .pixelator{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
 }
 
 .mudra-screen{
@@ -1116,6 +1143,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .page-webdev .pixelator{
+        max-width: 398px;
+        height: 238px;
+    }
+
     .page-design nav a:hover{
         color: #E5DDE0;
     }

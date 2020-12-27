@@ -181,6 +181,13 @@ body.page-design{
     margin: auto ;
 }
 
+.city .koordinate a{
+    cursor: url("../img/Icons/insta_24px.svg"), auto;
+    /*cursor: cell;*/
+    text-decoration: none;
+    outline: none;
+}
+
 .intro-copy{
     width: 65%;
     line-height: 1.4;
